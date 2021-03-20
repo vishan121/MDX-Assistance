@@ -43,3 +43,8 @@ var goodbye = [
     "Bye, have a great time",
     "It was a pleasure to talk with you today. Hope to see you soon"
 ]
+
+//error
+var unreadable = [
+    "Sorry, I didn't understand. Can you please repeat?"
+]
