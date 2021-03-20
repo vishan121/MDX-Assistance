@@ -18,7 +18,7 @@ button{
     width: 102px;
     border-radius: 70%;
     margin-left: 45%;
-    margin-top: 8%;
+    margin-top: 4%;
 }
 .boxed{
     display: block;
@@ -110,15 +110,15 @@ li a:hover:not(.active) {
 }
 
 ::-webkit-scrollbar-track {
-    border: 1px solid #70c7be;
+    border: 1px solid #050000;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #70c7be;
+    background: #dddddd;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #46c0b4;
+    background: #b5eeed;
 }
