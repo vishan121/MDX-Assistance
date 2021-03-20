@@ -50,12 +50,14 @@ li a:hover:not(.active) {
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: auto;
+    margin-left: 30%;
+    margin-top: 5%;
 }
 
 td, th {
     border: 1px solid #dddddd;
-    text-align: left;
+    text-align: center;
     padding: 8px;
 }
 
