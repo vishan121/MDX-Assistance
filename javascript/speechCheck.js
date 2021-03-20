@@ -1,4 +1,4 @@
-function speechCheck(txt){
+function speechCheck(text){
 
-    txt = validateText(txt);
+    text = validateText(text);
 }
