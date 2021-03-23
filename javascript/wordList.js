@@ -1,14 +1,15 @@
 //greetings
-var hello = [
-    "Hello my friends. How are you today?",
-    "Hey, welcome on board!",
+var welcome = [
+    "Hey, welcome on board! What can i do for you?",
     "Hello there, how can i help you?"
 ]
 
 //open link
 const unihubLink = "https://myunihub.mdx.ac.uk/";
-var open = [
-    "here is the link."
+var link = [
+    "here is the link....",
+    "Opening the link for you...",
+    "Sure, here you..."
 ]
 
 //grades
@@ -26,7 +27,7 @@ var progress = [
     "All information is display in My Status. You can check your last year results."
 ]
 
-//timetable
+//subject
 var module = [
     "The module system can be found in My learning section. Once entered, you will find all your module on the right hand side of your screen."
 ]
@@ -34,7 +35,9 @@ var module = [
 //email
 const emailLink = "https://shorturl.at/clzR2"
 var email = [
-    "Opening email link for you to sign in."
+    "Opening email link for you to sign in.",
+    "Opening Emails now...",
+    "Remember to sign in outlook..."
 ]
 
 //goodbye
@@ -46,5 +49,7 @@ var goodbye = [
 
 //error
 var unreadable = [
-    "Sorry, I didn't understand. Can you please repeat?"
+    "Sorry, I didn't understand. Can you please repeat?",
+    "What? Didn't catch that easily",
+    "Try again. Thank You"
 ]
