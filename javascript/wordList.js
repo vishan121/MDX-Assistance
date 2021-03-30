@@ -9,7 +9,7 @@ const unihubLink = "https://myunihub.mdx.ac.uk/";
 var link = [
     "here is the link....",
     "Opening the link for you...",
-    "Sure, here you..."
+    "Sure, here you go..."
 ]
 
 //grades
@@ -33,7 +33,7 @@ var module = [
 ]
 
 //email
-const emailLink = "https://shorturl.at/clzR2"
+const emailLink = "https://www.outlook.com/live.mdx.ac.uk";
 var email = [
     "Opening email link for you to sign in.",
     "Opening Emails now...",

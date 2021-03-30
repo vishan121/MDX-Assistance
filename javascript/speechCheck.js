@@ -17,7 +17,7 @@ function speechCheck(text){
         play(goodbye[randomGen]);
         document.getElementById('texts').appendChild(p);
 
-    } else if(text.includes('open') || text.includes('portal')){
+    } else if(text.includes('open my portal') || text.includes('portal')){
         p = document.createElement('p');
         const randomGen = Math.floor(Math.random() * link.length);
         p.innerText = link[randomGen];
@@ -35,24 +35,28 @@ function speechCheck(text){
         document.getElementById('texts').appendChild(p);
 
     }else if (text.includes('where are the dates') || text.includes('how to get dates')){
+        p = document.createElement('p');
         const randomGen = Math.floor(Math.random() * calender.length);
         p.innerText = calender[randomGen];
         play(calender[randomGen]);
         document.getElementById('texts').appendChild(p);
 
-    }else if (text.includes('i want my progression') || text.includes('where the progression')){
+    }else if (text.includes('i want my progression') || text.includes('where is the progression')){
+        p = document.createElement('p');
         const randomGen = Math.floor(Math.random() * progress.length);
         p.innerText = progress[randomGen];
         play(progress[randomGen]);
         document.getElementById('texts').appendChild(p);
 
     }else if(text.includes('show my subject') || text.includes('where is my subject')){
+        p = document.createElement('p');
         const randomGen = Math.floor(Math.random() * module.length);
         p.innerText = module[randomGen];
         play(module[randomGen]);
         document.getElementById('texts').appendChild(p);
 
-    }else if(text.includes('show mail') || text.includes('open my outlook')){
+    }else if(text.includes('show mail') || text.includes('open my outlook') || text.includes('email')){
+        p = document.createElement('p');
         const  randomGen = Math.floor(Math.random() * email.length);
         p.innerText = email[randomGen];
         play(email[randomGen]);

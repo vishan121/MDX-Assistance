@@ -86,7 +86,7 @@ li a:hover:not(.active) {
     font-family: "Arial Rounded MT Bold", serif;
 }
 .texts p.sent {
-    background-color: aquamarine;
+    background-color: #1b4d58;
     color: white;
     text-align: right;
     float: right;

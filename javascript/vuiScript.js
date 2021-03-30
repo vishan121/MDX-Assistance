@@ -1,5 +1,11 @@
 window.onload = function(){
-    play("Hello my Friend.How are you today?");
+    play("Hello my Friend.... How are you today?");
+}
+
+function activateSpeech(){
+    var speechBtn = document.getElementById('speakBtn');
+    speechBtn.classList = "Speak";
+    recognition.start();
 }
 
 const texts = document.querySelector('.texts');
@@ -23,7 +29,7 @@ recognition.addEventListener('result', (e) =>{
     if(e.results[0].isFinal){
 
         var speakBtn = document.getElementById('speakBtn');
-        speakBtn.classList = "speechOn";
+        speakBtn.classList = "Speak";
 
         speechCheck(text);
 
