@@ -64,7 +64,13 @@ var fun = [
     "Why? I prefer to stay away from you. Social Distancing"
 ]
 var weather = [
-    "Take a look outside. We have the same idea of weather now..."
+    "Take a look outside. We have the same idea of weather now...",
+    "I am not equipped with an API for that. You might want to check it yourself"
+]
+const weatherLink = "https://www.accuweather.com/en/mu/mauritius-weather";
+var weather2 = [
+    "OK, Opening weather forecast now.....",
+    "Yes I can do that for you..."
 ]
 var nameCheck = [
     "My name is MDX Assistance but everyone call me Gio",
