@@ -1,3 +1,5 @@
+//This javascript file will be use to store all the word the system need to say upon different command.
+
 //greetings
 var welcome = [
     "Hey, welcome on board! What can i do for you?",
@@ -14,12 +16,12 @@ var link = [
 
 //grades
 var grades = [
-    "The grading system is found in My Status. You can access grading for all your modules."
+    "Sure. The grading system is found in My Status. You can access grading for all your modules."
 ]
 
 //calender system
 var calender = [
-    "The calender is found in My Learning. You view your schedule class, upcoming submission and attendance on previous class."
+    "Ok, The calender is found in My Learning. You view your schedule class, upcoming submission and attendance on previous class."
 ]
 
 //progress
@@ -52,4 +54,20 @@ var unreadable = [
     "Sorry, I didn't understand. Can you please repeat?",
     "What? Didn't catch that easily",
     "Try again. Thank You"
+]
+
+//fun
+var fun = [
+    "i am married to my commitment in helping you",
+    "OK, let's play Fortnite",
+    "We can start out next coursework instead....",
+    "Why? I prefer to stay away from you. Social Distancing"
+]
+var weather = [
+    "Take a look outside. We have the same idea of weather now..."
+]
+var nameCheck = [
+    "My name is MDX Assistance but everyone call me Gio",
+    "My name is MDX Assistance, it is a pleasure to meet you",
+    "Oh hello, i am your virtual assistant for today"
 ]

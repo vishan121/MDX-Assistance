@@ -1,7 +1,9 @@
+//This line will play voice speech to greet the user
 window.onload = function(){
     play("Hello my Friend.... How are you today?");
 }
 
+//Initialise speech recognition on button in html
 function activateSpeech(){
     var speechBtn = document.getElementById('speakBtn');
     speechBtn.classList = "Speak";
@@ -10,6 +12,8 @@ function activateSpeech(){
 
 const texts = document.querySelector('.texts');
 
+//check if browser has speech recognition
+//Initiate speech recognition api.
 window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
 const recognition = new window.SpeechRecognition();
@@ -19,8 +23,9 @@ let p = document.createElement('p');
 p.classList.add("sent");
 
 recognition.addEventListener('result', (e) =>{
-    const text = Array.from(e.results).map(result => result[0]).map(result => result.transcript).join('');
+    const text = Array.from(e.results).map(result => result[0]).map(result => result.transcript).join(''); //display the results
 
+    //this section of code will be speech to text system where it will be displayed in a box
     p.innerText = text;
     document.getElementById('texts').appendChild(p);
     var DivObj = document.getElementById("scrollBox");
@@ -31,16 +36,17 @@ recognition.addEventListener('result', (e) =>{
         var speakBtn = document.getElementById('speakBtn');
         speakBtn.classList = "Speak";
 
-        speechCheck(text);
+        speechCheck(text); //check for any word error
 
         var object = document.getElementById("scrollBox");
         object.scrollTop = object.scrollHeight;
-
+// add speech to box
         p=document.createElement('p');
         p.classList.add("sent");
     }
 })
 
+//This section, initialise the speech synthesis
 function play(text){
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.rate = 1;

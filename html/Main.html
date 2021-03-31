@@ -9,6 +9,7 @@
     <script src="../javascript/wordList.js"></script>
 </head>
 <body>
+<!--This section consists of creating a navigation to swap between help and main page-->
 <ul>
 <li><a class="active" href="Main.html">Home</a></li>
     <li><a href="Help.html">Help</a></li>
@@ -17,11 +18,11 @@
 <p>A virtual assistance will respond to your queries.
     <br>This web based system will guide you through UniHub to help you with you attendance and submission</p>
 <div>
+    <!--In this dive section, we have created a button and add speak function to activate vui system-->
     <button id="speakBtn" onclick="activateSpeech()" class="Speak"><img src="../Resources/image2.png" width="100" height="100" alt="Speak Now"></button>
-    <script src = "../javascript/vuiScript.js"></script>
     <p>Click on icon to activate voice command</p>
 </div>
-
+<!--This section consists of creating a scrollable box to display transcript of chat between user and VUI system-->
 <div class="container" id="scrollBox">
     <div class="texts" id="texts">
         <p>Hello my Friend.How are you today?</p>
