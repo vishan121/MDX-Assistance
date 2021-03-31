@@ -94,7 +94,6 @@ function speechCheck(text) {
         document.getElementById('texts').appendChild(p);
         window.setTimeout(function () {
             window.open(weatherLink);
-
         }, 3000);
 
     } else { //incase text don't match with list system will display error
