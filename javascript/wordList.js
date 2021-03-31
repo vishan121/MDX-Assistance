@@ -70,7 +70,7 @@ var weather = [
 const weatherLink = "https://www.accuweather.com/en/mu/mauritius-weather";
 var weather2 = [
     "OK, Opening weather forecast now.....",
-    "Yes I can do that for you..."
+    "Yes I can do that for you...."
 ]
 var nameCheck = [
     "My name is MDX Assistance but everyone call me Gio",
