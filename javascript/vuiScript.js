@@ -1,6 +1,6 @@
 //This line will play voice speech to greet the user
 window.onload = function(){
-    play("Hello my Friend.... How are you today?");
+    play("Hello my Friend! How are you today?");
 }
 
 //Initialise speech recognition on button in html
