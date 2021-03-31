@@ -86,7 +86,7 @@ function speechCheck(text) {
         play(nameCheck[randomGen]);
         document.getElementById('texts').appendChild(p);
 
-    } else if (text.includes('show me the weather') || text.includes('show forecast')) {
+    } else if (text.includes('show me the weather') || text.includes('show forecast now')) {
         p = document.createElement('p');
         const randomGen = Math.floor(Math.random() * weather2.length);
         p.innerText = weather2[randomGen];
