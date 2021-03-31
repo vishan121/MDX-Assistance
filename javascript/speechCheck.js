@@ -65,30 +65,39 @@ function speechCheck(text) {
             window.open(emailLink);
         }, 3000);
 
-    } else if (text.includes('do you want to have some fun') || text.includes('funny moment') || text.includes('fun')){
+    } else if (text.includes('do you want to have some fun') || text.includes('funny moment') || text.includes('fun')) {
         p = document.createElement('p');
         const randomGen = Math.floor(Math.random() * fun.length);
         p.innerText = fun[randomGen];
         play(fun[randomGen]);
         document.getElementById('texts').appendChild(p);
 
-    } else if (text.includes('what is the weather today')){
+    } else if (text.includes('what is the weather today')) {
         p = document.createElement('p');
         const randomGen = Math.floor(Math.random() * weather.length);
         p.innerText = weather[randomGen];
         play(weather[randomGen]);
         document.getElementById('texts').appendChild(p);
 
-    } else if (text.includes('what is your name') || text.includes('do you have any name')){
+    } else if (text.includes('what is your name') || text.includes('do you have any name')) {
         p = document.createElement('p');
         const randomGen = Math.floor(Math.random() * nameCheck.length);
         p.innerText = nameCheck[randomGen];
         play(nameCheck[randomGen]);
         document.getElementById('texts').appendChild(p);
 
-    }
+    } else if (text.includes('show me the weather') || text.includes('show forecast')) {
+        p = document.createElement('p');
+        const randomGen = Math.floor(Math.random() * weather2.length);
+        p.innerText = weather2[randomGen];
+        play(weather2[randomGen]);
+        document.getElementById('texts').appendChild(p);
+        window.setTimeout(function () {
+            window.open(weatherLink);
 
-    else {
+        }, 3000);
+
+    } else { //incase text don't match with list system will display error
         p = document.createElement('p');
         const randomGen = Math.floor(Math.random() * unreadable.length);
         p.innerText = unreadable[randomGen];
